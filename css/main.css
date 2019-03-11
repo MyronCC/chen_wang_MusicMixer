@@ -1,2 +1,13 @@
 @charset "UTF-8";
 
+.hidden
+{
+	display: none;
+}
+
+#container
+{
+	margin: 0 auto;
+	width: 960px;
+}
+
