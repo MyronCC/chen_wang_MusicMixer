@@ -28,7 +28,9 @@ h2
 
 #panel
 {
-	height: 800px;
+	
+	padding-top:30px;
+	height: 700px;
 	text-align: center;
 		vertical-align: middle;
 }
