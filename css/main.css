@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+body
+{
+	background-color: #000;
+}
+
 .hidden
 {
 	display: none;
@@ -8,6 +13,37 @@
 #container
 {
 	margin: 0 auto;
-	width: 960px;
+	width: auto;
+
 }
 
+h2
+{
+	text-align: center;
+	font-size: 48px;
+	font-family: 'Permanent Marker', cursive;
+	margin-top: 30px;
+	color: #fff;
+}
+
+#panel
+{
+	height: 500px;
+}
+
+#dragElement
+{
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+		display: table-cell;
+		vertical-align: middle;
+
+}
+
+#dragElement img
+{
+	width: 5%;
+	/*height: 3%;*/
+	padding: 20px;
+}
