@@ -8,6 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
+	<embed name="background" src="audio/bensound-house.mp3" loop="true" hidden="true" autostart="true">
 	<div id="container">
 		<header>
 			<h2>Jazz drum</h2>
@@ -15,21 +16,52 @@
 		</header>
 		<div id="panel">
 			<div id="DJpanel">
-				<object data="images/dj.svg" type="image/svg+xml"></object>
+				<object data="images/panel.svg" type="image/svg+xml"></object>
+			</div>
+			<div id="dropPlace">
+				<div class="empty trackholder"></div>
+				<div class="empty trackholder"></div>
+				<div class="empty trackholder"></div>
+				<div class="empty trackholder"></div>
 			</div>
 			
 		</div>
-		<div id="dragElement">
-			<img src="images/note.png">
-			<img src="images/note.png">
-			<img src="images/note.png">
-			<img src="images/note.png">
-			<img src="images/note.png">
-			<img src="images/note.png">
-			<img src="images/note.png">
+		<div id="dragZone">
+			<audio src="audio/background.wav" loop></audio>
+			<div id="row1">
+				<div class="fill">
+					<div data-currenttrack="background.wav" id="sag" draggable="true"></div>
+					<!-- <img src="images/sag.svg" alt="sag" class="dragElement sag" draggable="true"> -->
+				</div>
+				<div class="fill">
+					<div data-currenttrack="beat_box.wav" id="tau" draggable="true"></div>
+					<!-- <img src="images/tau.svg" alt="tau" class="dragElement tau" draggable="true"> -->
+				</div>
+				<div class="fill">
+					<div data-currenttrack="beats.wav" id="lib" draggable="true"></div>
+					<!-- <img src="images/lib.svg" alt="lib" class="dragElment lib" draggable="true"> -->
+				</div>
+				<div class="fill">
+					<div data-currenttrack="mix.wav" id="aqua" draggable="true"></div>
+					<!-- <img src="images/aqua.svg" alt="aqua" class="dragElement aqua" draggable="true"> -->
+				</div>
+			</div>
+			<div id="row2">
+				<div class="fill">
+					<div data-currenttrack="audio/mouth.wav" id="leo" draggable="true"></div>
+					<!-- <img src="images/leo.svg" alt="leo" class="dragElement leo" draggable="true"> -->
+				</div>
+				<div class="fill">
+					<div ata-currenttrack="audio/remix.wav" id="gem" draggable="true"></div>
+					<!-- <img src="images/gem.svg" alt="gem" class="dragElement gem" draggable="true"> -->
+				</div>
+			</div>
 			
 		</div>
+		<div id="foot">
+			<h3>For updating...</h3>
+		</div>
 	</div>
-	<script type="text/javascript" src="js/main.js"></script>
+	<script src="js/main.js"></script>
 </body>
 </html>
