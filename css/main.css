@@ -1,2 +1,159 @@
 @charset "UTF-8";
 
+body
+{
+	background-color: #000;
+}
+
+.hidden
+{
+	display: none;
+}
+
+#container
+{
+	margin: 0 auto;
+	width: auto;
+	background: url(../images/background.png)no-repeat;
+	background-size:cover;
+	height: 1500px;
+	display: flex;
+	flex-direction: column;
+
+}
+
+h2
+{
+	text-align: center;
+	font-size: 72px;
+	font-family: 'Permanent Marker', cursive;
+	padding-top: 100px;
+	color: #fff;
+	padding-bottom: 100px;
+	margin: 0 auto;
+}
+
+#panel
+{
+	
+	padding-top:50px;
+	text-align: center;
+		vertical-align: middle;
+	 box-shadow: #fff 0px 0px 10px;
+	 border-radius: 30px;
+	 width: 1200px;
+	 height: 600px;
+	 margin: 0 auto;
+	 background-color: #000;
+	 display: flex;
+	 flex-direction: column;
+}
+
+#panel object
+{
+	width: 80%;
+}
+
+#dropPlace
+{
+	margin-top: -80px;
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	margin: -80px auto;
+
+}
+
+.empty
+{
+	background: url(../images/button.svg)no-repeat center;
+	height: 100px;
+	width: 200px;
+	margin: 0 20px 0 20px;
+}
+
+#dragZone
+{
+	margin-top: 100px;
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+}
+.fill
+{
+	background: url(../images/fill.svg)no-repeat center;
+	height: 100px;
+	width: 200px;
+	margin: 0 20px 0 20px;
+}
+
+#row1
+{
+	display: flex;
+	flex-direction: row;
+	margin: 50px auto;
+}
+
+#row2
+{
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	margin: 0 auto;
+}
+
+/*.fill img
+{
+	height: 100px;
+	width: 200px;
+}*/
+#sag
+{
+	background: url(../images/sag.svg)no-repeat center;
+	width: 200px;
+	height: 100px;
+}
+
+#tau
+{
+	background: url(../images/tau.svg)no-repeat center;
+	width: 200px;
+	height: 100px;
+}
+
+#lib
+{
+	background: url(../images/lib.svg)no-repeat center;
+	width: 200px;
+	height: 100px;
+}
+
+#aqua
+{
+	background: url(../images/aqua.svg)no-repeat center;
+	width: 200px;
+	height: 100px;
+}
+
+#leo
+{
+	background: url(../images/leo.svg)no-repeat center;
+	width: 200px;
+	height: 100px;
+}
+
+#gem
+{
+	background: url(../images/gem.svg)no-repeat center;
+	width: 200px;
+	height: 100px;
+}
+
+#foot h3
+{
+	margin-top: 120px;
+	text-align: center;
+	font-family: 'arial';
+	font-weight: 18px;
+	color: #fff;
+}
